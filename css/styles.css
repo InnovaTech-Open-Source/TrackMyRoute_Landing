@@ -1,61 +1,89 @@
-        /* Estilos para el encabezado y la barra de navegación */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-
-    .jost-component{
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 20px;
-    font-style: normal;
-    }
-
-        .container {
-            height: 100%;
-            width: 100%;
-            display: flex;
-            justify-content: left
-         }
-        header {
-            background-color: transparent; /* Fondo transparente */
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        nav {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-        }
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-        nav ul li {
-            margin-left: 50px;
-        }
-        nav ul li a {
-            text-decoration: none;
-        }
-
-
-        :root {
-            /* Generated from Material Theme Builder Figma plugin
+:root {
+  /* Generated from Material Theme Builder Figma plugin
                or `material-color-utilities`. */
-            --md-sys-color-primary: #39e733;
-            --md-sys-color-on-primary: #FFFFFF;
-            --md-sys-color-primary-container: #6FF7F6;
-            --md-sys-color-on-primary-container: #002020;
-            --md-sys-color-outline: #39e733;
-            /* ... */
-          }
+  --md-sys-color-primary: #00933c;
+  --md-sys-color-on-primary: #ffffff;
+  --md-sys-color-primary-container: #6ff7f6;
+  --md-sys-color-on-primary-container: #002020;
+  --md-sys-color-outline: #00933c;
+  /* ... */
+}
 
-          .primary {
-            background: var(--md-sys-color-primary);
-            color: var(--md-sys-color-on-primary);
-          }
+.primary {
+  background: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary);
+}
 
+/* Estilos para el encabezado y la barra de navegación */
 
+.jost-component {
+  font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+}
 
-        
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+header {
+  background-color: transparent; /* Fondo transparente */
+  padding: 20px 90px 20px 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 24px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  margin-left: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+md-outlined-button{
+    width: 195px;
+    height: 59px;  
+    font-size: 24px;  
+}
+
+md-filled-button{
+    width: 195px;
+    height: 59px;
+    font-size: 24px;   
+}
+
+.hero-title{
+    margin-top: 115px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.hero-subtitle{
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    margin: 20px 0 20px 100px;
+}
