@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackMyRoute</title>
+    <link rel="stylesheet" href="css\styles.css">
+
+
+
+    <head>
+        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+      </head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script type="importmap">
+      {
+        "imports": {
+          "@material/web/": "https://esm.run/@material/web/"
+        }
+      }
+    </script>
+    <script type="module">
+      import '@material/web/all.js';
+      import {styles as typescaleStyles} from '@material/web/typography/md-typescale-styles.js';
+  
+      document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">`
+
+</head>
+
+
+<body>
+    
+    <header>
+        <h1 class="jost-component">TrackMyRoute</h1>
+        <nav>
+            <ul class="jost-component">
+                <li style="padding-top: 10px;"><a href="#" style="color: black;">Beneficios</a></li>
+                <li style="padding-top: 10px;"><a href="#" style="color: black;">Planes</a></li>
+                <li style="padding-top: 10px;"><a href="#" style="color: black;">FAQ</a></li>
+                <li></li><md-outlined-button>Iniciar Sesión</md-outlined-button></li>
+                <li><md-filled-button>Registrarme</md-filled-button></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Resto del contenido de la página -->
+
+
+
+    <div class="container" style="margin-right: 10px;margin-left: -10px;width: 100%;height:700px; background-image: linear-gradient(to top, #8ef04e, #80f46a, #74f884, #6bfb9b, #65fdb0, #53ffd0, #55ffeb, #6bffff, #9bfdff, #cdfbff, #f0faff, #ffffff);">
+        <div class="left-box">
+            <h2 class="jost-component" style="font-size: 54px; font-weight: bold; margin-left: 90px;">Tu guía personal en la <br> Caótica ciudad</h2>
+            <a class="jost-component" style="font-size: 25px; margin-left: 90px;">Descubre la forma más fácil de navegar por el </a><br><a class="jost-component" style="font-size: 25px;margin-left: 90px;"> transporte público con TrackMyRoute</a>
+            <br>
+            <md-filled-button style="margin-left: 90px;">Empieza ahora!</md-filled-button>
+            
+        </div>
+        <div class="right-box" style="width: 500px;margin-left: 350px;">
+            <img src="assets\9885453 1.png" >
+        </div>
+    </div>
+
+    <div class="container-aliados-title jost-component" style="text-align: center;font-size: 64px; margin-top: 30px;">
+        Aliados Estratégicos
+    </div>
+    <div class="container-aliados">
+        <div class="first-row" style="display: inline;">
+            <img src="assets\chamalogo.png" style="margin-left: 100px;">
+            <img src="assets\sutranlogo.png" style="margin-left: 300px;">
+            <img src="assets\munilimalogo.png" style="margin-left: 300px;">
+        </div>
+        <div class="second-row" style="display: inline;">
+            <img src="assets\chinoslogo.png" style="margin-left: 450px; margin-top: 100px;">
+            <img src="assets\la50logo.png" style="margin-left: 300px;">
+        </div>
+    </div>
+
+    <div class="container-reviews-title jost-component" style="text-align: center;font-size: 64px; margin-top: 90px;">
+        Lo que dicen nuestros usuarios
+    </div>
+    <div class="container-reviews jost-component" style="display: flex; flex-direction: row; justify-content: space-evenly;">
+        <div class="mdc-card" style="width: 150px;">
+            <img src="assets\customer.png">
+            <a style="font-size: 24px;">Oscar Flores</a>
+            <a style="font-size: 14px;">Me encanta esta aplicación, me ayuda mucho a organizarme</a>
+        </div>
+        <div class="mdc-card">
+            aasd
+        </div>
+        <div class="mdc-card">
+            aasd
+        </div>
+    </div>
+
+</body>
+</html>
