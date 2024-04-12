@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  /* Generated from Material Theme Builder Figma plugin
+               or `material-color-utilities`. */
+  --md-sys-color-primary: #00933c;
+  --md-sys-color-on-primary: #ffffff;
+  --md-sys-color-primary-container: #6ff7f6;
+  --md-sys-color-on-primary-container: #002020;
+  --md-sys-color-outline: #00933c;
+  /* ... */
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+a{
+    text-decoration-line: none;
+}
+.primary {
+  background: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary);
+}
+
+/* Estilos para el encabezado y la barra de navegación */
+
+.jost-component {
+  font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.custom-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+header {
+  background-color: transparent; /* Fondo transparente */
+  padding: 20px 90px 20px 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 24px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  margin-left: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+md-outlined-button{
+    width: 195px;
+    height: 59px;
+    font-size: 24px;
+}
+
+md-filled-button{
+    width: 195px;
+    height: 59px;
+    font-size: 24px;
+}
+
+.hero-title{
+    margin-top: 115px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.hero-subtitle{
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    margin: 20px 0 20px 100px;
+}
+
+.container-aliado{
+    width: 100%;
+}
+
+.container-aliados img{
+    width: 70%;
+    text-align: center;
+}
+
+.cards-beneficios{
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.beneficio-card{
+  width: 350px;
+  height: 350px;
+  border-radius: 12px;
+  color: #000;
+  background-color: #00e2693d;
+  padding: 20px;
+}
+
+.beneficio-card h4{
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.beneficio-card p{
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.beneficio-card img{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
