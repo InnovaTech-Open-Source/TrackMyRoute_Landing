@@ -16,7 +16,7 @@
 }
 
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
 }
 a{
@@ -137,4 +137,26 @@ md-filled-button{
   width: 100px;
   height: 100px;
   margin-bottom: 10px;
+}
+.beneficios img{
+  width: 100px;
+}
+
+
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 768px) {
+    .beneficios .bg-secondary{
+        min-height: 330px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .beneficios .bg-secondary{
+        min-height: 410px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .beneficios .bg-secondary{
+        min-height: 330px;
+    }
 }
