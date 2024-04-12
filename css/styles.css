@@ -41,14 +41,14 @@ a{
   display: flex;
   justify-content: left;
 }
-header {
-  background-color: transparent; /* Fondo transparente */
+/* header {
+  background-color: transparent;
   padding: 20px 90px 20px 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-nav {
+} */
+/* nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -65,7 +65,7 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-}
+} */
 
 md-outlined-button{
     width: 195px;
