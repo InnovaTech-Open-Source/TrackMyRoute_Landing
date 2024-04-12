@@ -152,8 +152,8 @@ md-filled-button{
 }
 
 .plan {
-  width: 270px;
-  height: 290px;
+  width: 600px;
+  height: 617px;
   background-color: #ffffff;
   border: 2px solid rgb(126, 112, 112);
   border-radius: 10px;
@@ -165,7 +165,7 @@ md-filled-button{
 }
 
 .plan h3 {
-  font-size: 48px;
+  font-size: 96px;
   font-weight: 500;
   margin-top: 4px;
   margin-bottom: 1px;
@@ -196,29 +196,30 @@ md-filled-button{
   font-family: "Montserrat", sans-serif;
 }
 .custom-check {
-  width: 10px;
-  height: 10px; 
+  width: 22px;
+  height: 22px; 
   background-image: url('https://i.imgur.com/Y8dnhhi.png'); 
   background-size: contain; 
   background-repeat: no-repeat; 
-  margin-right: 5px; 
+  margin-right: 20px; 
   font-family: "Montserrat", sans-serif;
 }
 
 .feature1 {
   word-break: break-word; 
-  font-size: 10px;
-  margin-bottom: 5px;
+  font-size: 24px;
+  margin-bottom: 15px;
   font-family: "Montserrat", sans-serif;
   text-align: left;
   font-weight: 570;
 }
 .feature2 {
   word-break: break-word; 
-  font-size: 10px;
+  font-size: 24px;
   font-family: "Montserrat", sans-serif;
   text-align: left;
   font-weight: 570;
+  margin-bottom: 15px;
 }
 .app {
    display: block; 
@@ -233,31 +234,38 @@ md-filled-button{
 }       
 .btn1 {
   display: block;
-  margin: 5px auto; 
+  margin: 43px auto; 
   background-color:#00933c;
   color: white; 
   border: none; 
   padding: 6px 14px; 
   border-radius: 5px;
   cursor: pointer; 
-  font-size: 12px;
+  font-size: 24px;
   font-family: "Montserrat", sans-serif;
+  width: 277px;
+  height: 69px; 
+  border-radius: 30px;
 }
 .btn2 {
   display: block; 
-  margin: 18px auto;
+  margin: 50px auto;
   background-color: #00933c;
   color: white;
   border: none; 
   padding: 6px 14px; 
   border-radius: 5px;
   cursor: pointer;
-  font-size: 12px; 
+  font-size: 24px; 
   font-family: "Montserrat", sans-serif;
+  width: 277px;
+  height: 69px; 
+  border-radius: 30px;
 }
 
 .plan .mensual {
   position: relative;
-  top: -14px; /* Ajustar el margen superior del span negativamente */
+  top: -25px;
   font-weight: 570;
+  font-size: 36px;
 }
