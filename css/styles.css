@@ -95,3 +95,39 @@ md-filled-button{
     width: 70%;
     text-align: center;
 }
+
+.cards-beneficios{
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.beneficio-card{
+  width: 350px;
+  height: 350px;
+  border-radius: 12px;
+  color: #000;
+  background-color: #00e2693d;
+  padding: 20px;
+}
+
+.beneficio-card h4{
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.beneficio-card p{
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.beneficio-card img{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
