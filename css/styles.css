@@ -145,7 +145,6 @@ summary {
 }
 
 .faq-answer {
-  font-size: 0.4
-  em; /* o el tamaño que prefieras */
+  font-size: 0.4em; /* o el tamaño que prefieras */
 }
 
