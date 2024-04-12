@@ -144,3 +144,8 @@ summary {
   font-size: 0.5em; /* Reduce este valor para una fuente más pequeña */
 }
 
+.faq-answer {
+  font-size: 0.4
+  em; /* o el tamaño que prefieras */
+}
+
