@@ -25,7 +25,6 @@
 .jost-component {
   font-family: "MuseoModerno", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 20px;
   font-style: normal;
 }
 
@@ -86,4 +85,13 @@ md-filled-button{
     font-family: "Montserrat", sans-serif;
     font-size: 36px;
     margin: 20px 0 20px 100px;
+}
+
+.container-aliado{
+    width: 100%;
+}
+
+.container-aliados img{
+    width: 70%;
+    text-align: center;
 }
