@@ -197,15 +197,15 @@ md-filled-button{
   text-align: center;
 }
 
-@media (max-width: 576px) { /* Cambiar solo en dispositivos móviles */
+@media (max-width: 576px) { 
   .planes-container {
-    flex-direction: column; /* Cambiar a una disposición de columna */
-    align-items: center; /* Centrar los elementos */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .plan {
-    width: 90%; /* Utilizar el ancho máximo del contenedor */
-    margin: 0 auto 30px auto; /* Ajustar los márgenes para colocar los cuadros uno debajo del otro */
+    width: 90%; 
+    margin: 0 auto 30px auto; 
   }
 }
 
@@ -223,13 +223,13 @@ md-filled-button{
   font-family: "Montserrat", sans-serif;
 }
 
-@media (max-width: 576px) { /* Cambiar solo en dispositivos móviles */
+@media (max-width: 576px) { 
   .plan h3 {
-    font-size: 48px; /* Reducir el tamaño del título en dispositivos móviles */
+    font-size: 48px;
   }
 
   .plan p {
-    font-size: 14px; /* Reducir el tamaño del texto en dispositivos móviles */
+    font-size: 14px; 
   }
 }
 
@@ -261,10 +261,10 @@ md-filled-button{
   font-family: "Montserrat", sans-serif;
 }
 
-@media (max-width: 576px) { /* Cambiar solo en dispositivos móviles */
+@media (max-width: 576px) { 
   .custom-check {
-    width: 22px; /* Tamaño fijo para la imagen en dispositivos móviles */
-    height: 22px; /* Tamaño fijo para la imagen en dispositivos móviles */
+    width: 22px; 
+    height: 22px; 
   }
 }
 
