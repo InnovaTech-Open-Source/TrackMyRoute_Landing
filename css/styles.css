@@ -167,9 +167,11 @@ md-filled-button{
 
 /* Estilos para seccion planes */
 
+
 .smaller-text {
   font-size: 1.2rem;
   line-height: 1.8;
+
 }
 .check-icon {
   width: 15px;
