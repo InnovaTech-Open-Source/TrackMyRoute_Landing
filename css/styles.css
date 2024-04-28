@@ -165,6 +165,23 @@ md-filled-button{
     }
 }
 
+.faq-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1em; /* Reduce este valor para una fuente más pequeña */
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.5em; /* Reduce este valor para una fuente más pequeña */
+}
+
+.faq-answer {
+  font-size: 0.4em; /* o el tamaño que prefieras */
+}
+
+
 /* Estilos para seccion planes */
 
 
