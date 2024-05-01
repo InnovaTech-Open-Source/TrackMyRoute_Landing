@@ -230,3 +230,7 @@ summary {
 summary::-webkit-details-marker {
     display: none;
 }
+.company-buses{
+    background: rgb(50,182,237);
+    background: linear-gradient(0deg, rgba(50,182,237,1) 0%, rgba(253,254,255,1) 65%, rgba(255,255,255,1) 82%, rgba(255,255,255,1) 82%);
+}
