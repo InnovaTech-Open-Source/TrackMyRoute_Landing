@@ -195,3 +195,38 @@ summary {
   vertical-align: middle;
   margin-right: 10px;
 }
+.faq-section {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.faq-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+details {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombreado para los detalles */
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+details:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    /* Sombreado más intenso al pasar el mouse */
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
