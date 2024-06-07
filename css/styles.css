@@ -41,31 +41,6 @@ a{
   display: flex;
   justify-content: left;
 }
-/* header {
-  background-color: transparent;
-  padding: 20px 90px 20px 90px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-/* nav {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  font-size: 24px;
-}
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-nav ul li {
-  margin-left: 50px;
-}
-nav ul li a {
-  text-decoration: none;
-} */
 
 md-outlined-button{
     width: 195px;
@@ -181,6 +156,39 @@ summary {
   font-size: 0.4em; /* o el tamaño que prefieras */
 }
 
+
+/*Estilos para la seccion de Visualizacion de Aplicacion*/
+.functionality-container{
+  display:inline-flex;
+  justify-items: center; 
+  align-content: center;
+  text-align: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.functionality-image{
+  max-width:600px; 
+  max-height:540px;
+}
+
+.functionality {
+  display:block;
+  justify-items: center; 
+  align-content: center;
+}
+
+@media screen and (max-width: 576px){
+  .functionality-container{
+    display:block;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .functionality-image{
+    max-width:90vw; 
+    max-height:30vh;
+  }
+}
 
 /* Estilos para seccion planes */
 
